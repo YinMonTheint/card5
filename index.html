@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          .container{
+    padding: 20px 40px;
+}
+h1{
+    color:blueviolet;
+    font-size: 25px;
+    top: 200px;
+}
+button{
+    width: 90px;
+    height: 40px;
+    background-color: blanchedalmond;
+    border-radius: 9px;
+    animation-name: move;
+    animation-duration: 2s;
+}
+@keyframes move{
+    0%{
+        transform: translate(0px) rotate(0deg);
+    }
+    50%{
+        transform: translate(500px) rotate(360deg);
+    }
+    100%{
+        transform: translate(0px) rotate(0deg);
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div >
+            <h1>This is testing</h1>
+            <button>Css Animation</button>
+        </div>
+    </div>
+    
+
+</body>
+</html>
